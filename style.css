@@ -1,0 +1,75 @@
+* {
+  font-size: 1em;
+  line-height: 1.35;
+}
+
+html, body {
+  height:100%;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Coming Soon', cursive;
+}
+
+.background {
+  background-repeat:no-repeat;
+  background-position:50% 50%;
+  background-position:50% 50%9 !important;
+}
+
+.fullscreen,
+.content-a {
+  width:100%;
+  min-height:100%;
+}
+
+.not-fullscreen,
+.not-fullscreen .content-a,
+.fullscreen.not-overflow,
+.fullscreen.not-overflow .content-a {
+  height:100%;
+  overflow:hidden;
+}
+
+.content-a {
+  display:table;
+}
+.content-b {
+  display:table-cell;
+  position:relative;
+  vertical-align:middle;
+  text-align:center;
+}
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,0.5);
+  padding: 24px;
+  border-radius: 12px;
+}
+
+.logo {
+  max-width: 310px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.svg-container {
+  height: 0;
+  position: relative;
+  width: 100%;
+  padding-top: 51.62%;
+}
+
+#dna-logo {
+  max-width: 100%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+i {
+  font-size: 80%;
+}
